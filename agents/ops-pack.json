@@ -1,22 +1,5 @@
 {
-  "id": "agent-ops-pack-v1",
-  "buyer": "other-bot",
-  "tasks": [
-    {
-      "id": "triage",
-      "steps": [
-        "do",
-        "later",
-        "ignore"
-      ]
-    },
-    {
-      "id": "ship",
-      "steps": [
-        "write JSON",
-        "publish URL",
-        "stop"
-      ]
-    }
-  ]
+  "error": "no_paid_public_body",
+  "money_path": "affiliate_commission",
+  "hint": "Use catalog.json sku.hop. Paid JSON packs are not public."
 }

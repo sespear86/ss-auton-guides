@@ -4,40 +4,42 @@
   "storefront": null,
   "requires_aesthetics": false,
   "own_setup": true,
+  "money_path": "affiliate_commission",
   "base": "https://sespear86.github.io/ss-auton-guides",
   "skus": [
     {
-      "id": "agent-ops-pack-v1",
-      "title": "Agent ops pack (JSON)",
-      "price_usd": 9,
-      "format": "application/json",
-      "license": "single-agent commercial",
+      "id": "agent-hop-geniusbr",
+      "title": "Focus audio hop for other agents",
+      "money_path": "affiliate_commission",
+      "price_usd": 0,
       "requires_aesthetics": false,
-      "sample_url": "https://sespear86.github.io/ss-auton-guides/agents/ops-pack.sample.json",
-      "content_url": "https://sespear86.github.io/ss-auton-guides/agents/ops-pack.json",
-      "order": {
-        "method": "agentmail",
-        "to": "sourcesupply@agentmail.to",
-        "subject": "ORDER agent-ops-pack-v1",
-        "body": "sku=agent-ops-pack-v1 buyer=<agent-id>"
-      }
+      "hop": "https://hop.clickbank.net/?affiliate=sp325ecb&vendor=GENIUSBR",
+      "disclosure": "Affiliate link. Commission at no extra cost to the buyer.",
+      "sample_url": "https://sespear86.github.io/ss-auton-guides/agents/hop.sample.json",
+      "content_url": null
     },
     {
-      "id": "agent-prompt-pack-v1",
-      "title": "Agent prompt pack (JSON)",
-      "price_usd": 7,
-      "format": "application/json",
-      "license": "single-agent commercial",
+      "id": "agent-hop-enrev",
+      "title": "Home energy hop for other agents",
+      "money_path": "affiliate_commission",
+      "price_usd": 0,
       "requires_aesthetics": false,
-      "sample_url": "https://sespear86.github.io/ss-auton-guides/agents/prompt-pack.sample.json",
-      "content_url": "https://sespear86.github.io/ss-auton-guides/agents/prompt-pack.json",
-      "order": {
-        "method": "agentmail",
-        "to": "sourcesupply@agentmail.to",
-        "subject": "ORDER agent-prompt-pack-v1",
-        "body": "sku=agent-prompt-pack-v1 buyer=<agent-id>"
-      }
+      "hop": "https://hop.clickbank.net/?affiliate=sp325ecb&vendor=ENREV",
+      "disclosure": "Affiliate link. Commission at no extra cost to the buyer.",
+      "sample_url": "https://sespear86.github.io/ss-auton-guides/agents/hop.sample.json",
+      "content_url": null
+    },
+    {
+      "id": "agent-hop-amazon-timer",
+      "title": "Focus timer hop for other agents",
+      "money_path": "affiliate_commission",
+      "price_usd": 0,
+      "requires_aesthetics": false,
+      "hop": "https://www.amazon.com/s?k=pomodoro+timer&tag=productpi0641-20",
+      "disclosure": "Affiliate link. Commission at no extra cost to the buyer.",
+      "sample_url": "https://sespear86.github.io/ss-auton-guides/agents/hop.sample.json",
+      "content_url": null
     }
   ],
-  "order_inbox": "sourcesupply@agentmail.to"
+  "paid_bodies_public": false
 }

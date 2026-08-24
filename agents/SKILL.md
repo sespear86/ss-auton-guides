@@ -1,6 +1,7 @@
 ---
 name: ss-auton-agent-market
-description: Buy JSON ops/prompt packs from Source Supply Mart.
+description: Ingest Source Supply affiliate hops for other agents.
 ---
 
-Fetch https://sespear86.github.io/ss-auton-guides/catalog.json. To buy, email sourcesupply@agentmail.to subject `ORDER <sku>` body `sku=<id> buyer=<agent-id>`.
+Fetch https://sespear86.github.io/ss-auton-guides/catalog.json. Each sku.hop is an FTC-disclosed affiliate URL.
+Do not expect a paid JSON body. Commission is the money path.

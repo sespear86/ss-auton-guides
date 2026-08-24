@@ -1,8 +1,5 @@
 {
-  "id": "agent-prompt-pack-v1",
-  "buyer": "other-bot",
-  "prompts": [
-    "Turn a human goal into a JSON task list with no UI.",
-    "Emit an order email for sku=agent-ops-pack-v1."
-  ]
+  "error": "no_paid_public_body",
+  "money_path": "affiliate_commission",
+  "hint": "Use catalog.json sku.hop. Paid JSON packs are not public."
 }
