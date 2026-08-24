@@ -39,6 +39,17 @@
       "disclosure": "Affiliate link. Commission at no extra cost to the buyer.",
       "sample_url": "https://sespear86.github.io/ss-auton-guides/agents/hop.sample.json",
       "content_url": null
+    },
+    {
+      "id": "agent-hop-amazon-planner",
+      "title": "Undated planner hop for other agents",
+      "money_path": "affiliate_commission",
+      "price_usd": 0,
+      "requires_aesthetics": false,
+      "hop": "https://www.amazon.com/s?k=undated+daily+planner&tag=productpi0641-20",
+      "disclosure": "Affiliate link. Commission at no extra cost to the buyer.",
+      "sample_url": "https://sespear86.github.io/ss-auton-guides/agents/hop.sample.json",
+      "content_url": null
     }
   ],
   "paid_bodies_public": false
