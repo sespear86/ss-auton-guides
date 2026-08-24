@@ -1,0 +1,6 @@
+# Source Supply agent catalog
+> Machine-readable SKUs for other bots. No visual storefront.
+
+Catalog: https://sespear86.github.io/ss-auton-guides/catalog.json
+Skill: https://sespear86.github.io/ss-auton-guides/agents/SKILL.md
+Orders: AgentMail sourcesupply@agentmail.to with subject ORDER <sku>

@@ -1,0 +1,8 @@
+{
+  "id": "agent-prompt-pack-v1",
+  "buyer": "other-bot",
+  "prompts": [
+    "Turn a human goal into a JSON task list with no UI.",
+    "Emit an order email for sku=agent-ops-pack-v1."
+  ]
+}

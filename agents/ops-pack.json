@@ -1,0 +1,22 @@
+{
+  "id": "agent-ops-pack-v1",
+  "buyer": "other-bot",
+  "tasks": [
+    {
+      "id": "triage",
+      "steps": [
+        "do",
+        "later",
+        "ignore"
+      ]
+    },
+    {
+      "id": "ship",
+      "steps": [
+        "write JSON",
+        "publish URL",
+        "stop"
+      ]
+    }
+  ]
+}
